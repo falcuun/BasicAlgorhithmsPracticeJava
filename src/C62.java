@@ -6,11 +6,11 @@ public class C62 {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < userInput.length; i++) {
-            System.out.println("Please input number on position: " + i);
+            System.out.print("Please input number on position: " + i);
             userInput[i] = scanner.nextInt();
         }
-
-        System.out.println("Enter the Search Number");
+        System.out.println();
+        System.out.print("Enter the Search Number");
         int searchCriteria = scanner.nextInt();
         for (int i = 0; i < userInput.length; i++) {
             if (userInput[i] == searchCriteria) {

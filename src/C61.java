@@ -7,7 +7,7 @@ public class C61 {
         Scanner scanner = new Scanner(System.in);
 
         for(int i = 0; i < userInput.length; i++){
-            System.out.println("Please input number on position: " + i);
+            System.out.print("Please input number on position: " + i);
             userInput[i] = scanner.nextInt();
         }
 

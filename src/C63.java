@@ -7,7 +7,7 @@ public class C63 {
         Scanner scanner = new Scanner(System.in);
 
         for(int i = 0; i < userInput.length; i++){
-            System.out.println("Please enter a number at position: " + i);
+            System.out.print("Please enter a number at position: " + i);
             userInput[i] = scanner.nextInt();
         }
 
