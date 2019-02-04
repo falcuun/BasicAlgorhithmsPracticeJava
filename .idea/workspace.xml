@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4474fc-1d4c-4923-9517-5bc5d71a28d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C71.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C71.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C72.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C72.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,20 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/C72.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C71.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -75,7 +65,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/C74.java" />
-        <option value="$PROJECT_DIR$/src/C72.java" />
         <option value="$PROJECT_DIR$/src/C73.java" />
         <option value="$PROJECT_DIR$/src/C75.java" />
         <option value="$PROJECT_DIR$/src/C63.java" />
@@ -89,6 +78,7 @@
         <option value="$PROJECT_DIR$/src/C610.java" />
         <option value="$PROJECT_DIR$/src/C69.java" />
         <option value="$PROJECT_DIR$/src/C71.java" />
+        <option value="$PROJECT_DIR$/src/C72.java" />
       </list>
     </option>
   </component>
@@ -125,7 +115,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549301044132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549302204334" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -140,16 +130,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.C71">
+  <component name="RunManager" selected="Application.C72">
     <configuration name="C610" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C610" />
-      <module name="Chap6Chap7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C67" />
       <module name="Chap6Chap7" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,13 +159,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C72" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C72" />
+      <module name="Chap6Chap7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C72" />
         <item itemvalue="Application.C71" />
         <item itemvalue="Application.C69" />
         <item itemvalue="Application.C610" />
         <item itemvalue="Application.C68" />
-        <item itemvalue="Application.C67" />
       </list>
     </recent_temporary>
   </component>
@@ -313,13 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C72.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C68.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
@@ -359,6 +342,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C72.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
