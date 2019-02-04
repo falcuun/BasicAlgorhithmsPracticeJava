@@ -1,8 +1,33 @@
-import java.io.IOException;
 import java.util.Scanner;
 
+
+
+/* For User Input
+ String[][] questions = new String[20][6];
+        Scanner scanner = new Scanner(System.in);
+
+        for (int i = 0; i < questions.length; i++) {
+            System.out.print("Please enter " + (i + 1) + " question: ");
+            String question = scanner.nextLine();
+            questions[i][0] = question;
+            for (int j = 0; j < questions[0].length - 1; j++) {
+                if (j == questions[0].length - 2) {
+                    System.out.print("Please Enter the Answer Letter: ");
+                    String answer = scanner.nextLine().toUpperCase();
+                    questions[i][j] = answer;
+                } else {
+                    System.out.print("Please Enter the " + (j + 1) + " choice: ");
+                    String choice = scanner.nextLine();
+                    questions[i][j] = choice;
+                }
+            }
+        }
+
+ * */
+
+
 public class C68 {
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         String[][] questions =
                 {
                         {"What was the name of first computer designed by Charlse Babbage?", "A) Analytical Engine", "B) Difference Engine", "C) Colossus", "D) ENIAC", "B"},
@@ -27,12 +52,13 @@ public class C68 {
                         {"FORTRAN stands for __________.", "A) For Translation", "B) Format Transformation", "C) Fork Transformation", "D) Formula Translation", "D"},
                 };
 
+
         String[] allAnswers = new String[20];
         for (int i = 0; i < questions.length; i++) {
             allAnswers[i] = questions[i][5];
         }
 
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
         int score = 0;
         for (int i = 0; i < questions.length; i++) {
             System.out.println("Question number " + (i + 1));
@@ -41,7 +67,7 @@ public class C68 {
             for (int j = 1; j < questions[0].length - 1; j++) {
                 System.out.format("%4s\n", questions[i][j]);
             }
-
+            Scanner scanner = new Scanner(System.in);
             System.out.print("Input your Answer: ");
             String answer = scanner.nextLine().toUpperCase();
             System.out.println();

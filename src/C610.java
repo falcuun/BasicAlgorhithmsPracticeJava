@@ -1,17 +1,17 @@
-import java.util.Random;
+import java.util.Scanner;
 
 public class C610 {
     public static void main(String[] arg) {
         int[] values = new int[10];
-        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < values.length; i++) {
-            values[i] = random.nextInt(100);
+            values[i] = scanner.nextInt();
         }
         System.out.println("Original Array: ");
         for (int i = 0; i < values.length; i++) {
             System.out.print(" " + values[i]);
         }
-
+        System.out.println();
         for (int i = 0; i < values.length; i++) {
             if (values[i] % 3 == 0) {
                 values[i] += 5;
