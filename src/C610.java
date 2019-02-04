@@ -1,23 +1,26 @@
-import java.util.Arrays;
 import java.util.Random;
 
 public class C610 {
-    public static void main(String[] arg)
-    {
+    public static void main(String[] arg) {
         int[] values = new int[10];
         Random random = new Random();
-        for(int i = 0; i < values.length; i++){
+        for (int i = 0; i < values.length; i++) {
             values[i] = random.nextInt(100);
         }
         System.out.println("Original Array: ");
-        System.out.println(Arrays.toString(values));
-        for(int i = 0; i < values.length; i++){
-            if(values[i] % 3 == 0){
+        for (int i = 0; i < values.length; i++) {
+            System.out.print(" " + values[i]);
+        }
+
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] % 3 == 0) {
                 values[i] += 5;
             }
         }
         System.out.println("Modified Array: ");
-        System.out.println(Arrays.toString(values));
+        for (int i = 0; i < values.length; i++) {
+            System.out.print(" " + values[i]);
+        }
     }
 }
 
