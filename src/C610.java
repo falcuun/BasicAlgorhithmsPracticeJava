@@ -5,6 +5,7 @@ public class C610 {
         int[] values = new int[10];
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < values.length; i++) {
+            System.out.print("Enter " + i + " value");
             values[i] = scanner.nextInt();
         }
         System.out.println("Original Array: ");
