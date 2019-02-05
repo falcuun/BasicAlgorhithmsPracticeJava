@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C63 {
-    public static void main(String[] arg)
+    public void start()
     {
         int[] userInput = new int[5];
         Scanner scanner = new Scanner(System.in);

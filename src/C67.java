@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C67 {
-    public static void main(String[] arg) {
+    public void start() {
         int[] temperatures = new int[7];
         String[] days = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
 

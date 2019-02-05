@@ -27,7 +27,7 @@ import java.util.Scanner;
 
 
 public class C68 {
-    public static void main(String[] arg) {
+    public void start() {
         String[][] questions =
                 {
                         {"What was the name of first computer designed by Charlse Babbage?", "A) Analytical Engine", "B) Difference Engine", "C) Colossus", "D) ENIAC", "B"},

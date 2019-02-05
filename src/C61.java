@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class C61 {
-    public static void main(String[] arg)
+    public void start()
     {
         int[] userInput = new int[5];
         Scanner scanner = new Scanner(System.in);
 
         for(int i = 0; i < userInput.length; i++){
-            System.out.print("Please input number on position: " + i);
+            System.out.print("Please input number on position: " + i + ": ");
             userInput[i] = scanner.nextInt();
         }
 

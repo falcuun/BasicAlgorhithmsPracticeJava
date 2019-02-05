@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C610 {
-    public static void main(String[] arg) {
+    public void start() {
         int[] values = new int[10];
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < values.length; i++) {

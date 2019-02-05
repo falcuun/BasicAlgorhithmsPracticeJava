@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C72 {
-    public static void main(String[] arg)
+    public void start()
     {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please Enter the String you want to check: ");
@@ -19,4 +19,14 @@ public class C72 {
         } else
             System.out.println(input + " Is not Palindrome!");
     }
+
+    /*
+    Could you also check the Chapter 7 Item 2
+
+    It seems that when typed the string, it also records the previously typed characters even I backspaced
+
+    For example, I typed radar but I mistyped it as rardar then I backspaced then typed the correct one
+
+    the program also records it as rardar
+     */
 }

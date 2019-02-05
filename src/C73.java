@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C73 {
-    public static void main(String[] arg)
+    public void start()
     {
         String userInput, copiedString;
         Scanner scanner = new Scanner(System.in);

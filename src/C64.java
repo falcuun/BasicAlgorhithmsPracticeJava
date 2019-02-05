@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C64 {
-    public static void main(String[] arg)
+    public void start()
     {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input How Many Items you want to processed: ");

@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class C66 {
-    public static void main(String[] arg) {
+    public void start() {
         int[][] salesReport = new int[3][12];
         String[] months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
