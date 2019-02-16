@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4474fc-1d4c-4923-9517-5bc5d71a28d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chap6Chap7/C69.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chap6Chap7/C69.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chap6Chap7/C75.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chap6Chap7/C75.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C61.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C610.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C610.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C62.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C63.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C65.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C66.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C68.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C68.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C69.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C71.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C71.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C72.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C72.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C73.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C73.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C74.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C74.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C75.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
+            <state relative-caret-position="1581">
               <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
             </state>
           </provider>
@@ -43,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/C61.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -91,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="943" />
     <option name="height" value="1087" />
@@ -102,28 +84,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Chap6Chap7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chap6Chap7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chap6Chap7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chap6Chap7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549390004271" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549464646507" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -198,10 +165,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="943" height="1087" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="943" height="1087" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34881088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3567384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -210,12 +176,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3322851" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3322851" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32917964" />
@@ -355,15 +321,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="1581">
           <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C61.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
