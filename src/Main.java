@@ -19,6 +19,7 @@ public class Main {
         C73 stringCopy = new C73();
         C74 vowelsReplacement = new C74();
         C75 nameToCaps = new C75();
+        ZodiacClass zc = new ZodiacClass();
 
         String menu = "Choose which program you want to run: \n" +
                 "1. Biggest Number in list\n" +
@@ -36,6 +37,7 @@ public class Main {
                 "13. Copy String\n" +
                 "14. Vowels Replacement\n" +
                 "15. Name To Capital\n" +
+                "16. Zodiac Sign\n" +
                 "Q. Quit\n\n" +
                 "Enter your Option: ";
         while (running) {
@@ -87,6 +89,9 @@ public class Main {
                     break;
                 case "15":
                     nameToCaps.start();
+                    break;
+                case "16":
+                    zc.start();
                     break;
                 case "Q":
                     running = false;

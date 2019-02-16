@@ -10,7 +10,7 @@ public class ZodiacClass {
 
         int day = Integer.parseInt(dob.substring(0, 2));
         int month = Integer.parseInt(dob.substring(3, 5));
-
+        System.out.print("Your Zodiac Sign is: ");
         if ((month == 12 && day >= 22 && day <= 31) || (month ==  1 && day >= 1 && day <= 19))
             System.out.println("Capricorn");
         else if ((month ==  1 && day >= 20 && day <= 31) || (month ==  2 && day >= 1 && day <= 17))
