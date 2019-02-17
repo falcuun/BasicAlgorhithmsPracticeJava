@@ -44,7 +44,7 @@ public class Main {
             System.out.println(menu);
             String option = scanner.nextLine();
 
-            switch (option) {
+            switch (option.toUpperCase()) {
                 case "1":
                     biggestNumberInList.start();
                     break;
